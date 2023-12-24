@@ -12,7 +12,6 @@
     "vite": "^4.3.9"
   },
   "dependencies": {
-    "@tensorflow-models/hand-pose-detection": "^2.0.1",
-    "scatter-gl": "^0.0.13"
+    "@tensorflow-models/hand-pose-detection": "^2.0.1"
   }
 }

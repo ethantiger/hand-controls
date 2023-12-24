@@ -27,7 +27,7 @@ export class Camera {
     this.canvas.height = videoHeight
     this.canvasContainer.style = `width: ${videoWidth}px; height: ${videoHeight}px`
 
-    this.ctx.translate(720, 0);
+    this.ctx.translate(videoWidth, 0);
     this.ctx.scale(-1, 1);
   }
 

@@ -11,7 +11,7 @@ const detector = await handPoseDetection.createDetector(model, detectorConfig);
 
 
 const camera = new Camera()
-camera.setupCamera(720,540)
+camera.setupCamera(1080,720)
 
 onFrame()
 
